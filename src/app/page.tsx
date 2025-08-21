@@ -1,10 +1,13 @@
-"use client"
+"use client";
 
+import Navbar from "@/components/Navbar";
 
 const Home = () => {
   return (
-    <div>page</div>
-  )
-}
+    <div>
+      <Navbar />
+    </div>
+  );
+};
 
-export default Home
+export default Home;
